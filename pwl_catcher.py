@@ -232,7 +232,7 @@ for i in range(len(csv_file)):
             dy = np.sqrt(dy**2 + 0.1**2)  # np.mean
 
             # =============================================================================
-            # Make a regeression with pymultinest
+            # Make a regeression with pymultinest (bayesian method)
             # =============================================================================
             pymultinest.run(myloglike, myprior, n_params, importance_nested_sampling=False, resume=True, verbose=True, sampling_efficiency='parameter',
                             n_live_points=n_live_points, outputfiles_basename='%s/2-' % plotDir, evidence_tolerance=evidence_tolerance, multimodal=False, max_iter=max_iter)
