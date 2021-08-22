@@ -205,7 +205,7 @@ def plot(ztf_id,  df, plotDir, mags_ztf,  figsize=(17, 15), font_plot=24):
                     df[0:len(mags_ztf-1)].loc[df['filters'] == 'r'].magerr,
                     fmt='d', label='ZTF r', c='darkred')
 
-    # Plot settings
+    # Figure plot settings
     plt.gca().invert_yaxis()
     plt.legend(loc='best')
     plt.grid(True)
