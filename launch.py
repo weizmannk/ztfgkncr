@@ -27,7 +27,7 @@ if not os.path.isdir(baseplotDir):
     os.makedirs(baseplotDir)
     
 # =============================================================================
-# read json file, 
+# read json file
 # =============================================================================
 for ztf_id  in ZTF_ID:
     print("Read the file",  ztf_id)
