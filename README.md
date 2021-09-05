@@ -1,5 +1,5 @@
 # ztfgkncr
-ZTF Grandma Kilonova Catcer ligthcurve Regression 
+Zwicky Transient Facility (ZTF) Grandma Kilonova Catcer ligthcurve Regression 
 ## Analyse, treatement, light curbe, and Linear regressions 
 of KN-Catcher-ReadyforO4 Data¶ and others transient 
 ## Summury 
