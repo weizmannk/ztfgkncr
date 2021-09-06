@@ -1,8 +1,8 @@
 # ztfgkncr
 Zwicky Transient Facility (ZTF) Grandma Kilonova Catcer ligthcurve Regression 
-## Analyse, treatement, light curbe, and Linear regressions 
+## Analyse, treatement, light curve, and Linear regressions 
 of KN-Catcher-ReadyforO4 Data¶ and others transient 
-## Summury 
+## Summary
 
 **kn_catcher.py**
     That file contains all the functions to obtain (using the API key of alerte), 
@@ -21,5 +21,6 @@ of KN-Catcher-ReadyforO4 Data¶ and others transient
     Runs the first two.   
     In output, a first folder outputs will be created, within which a sub-folder ligthcurve 
     destined to hold the light curves of each event. The creation of a second sub-folder will 
-    allow one to save the light curve of each filter as well as the superposition of the 
+    allow one to save the light curve of each filter as well as the superposition of th
+    e 
     different regression models.
