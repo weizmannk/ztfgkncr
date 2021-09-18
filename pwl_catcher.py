@@ -7,11 +7,10 @@ import numpy as np
 import optparse
 import corner
 import pymultinest
-from matplotlib import pyplot as plt
 from scipy import stats
 from sklearn.linear_model import LinearRegression
-
-
+from matplotlib import pyplot as plt
+import seaborn as sns; sns.set()
 # =============================================================================
 # returns current working directory of a process.
 # =============================================================================
@@ -72,8 +71,8 @@ def sufficient_statistics(t, mag, magerr):
     x = t
     y = mag
     sigma = magerr
-    w = 1.0 / sigma**2
-    So = np.sum(w)
+    w = 1.0 / sigma**2  
+    So = np.sum(w)       # estimate of mageer
     Sx = np.sum(w * x)
     Sy = np.sum(w * y)
     Sxy = np.sum(w * x * y)

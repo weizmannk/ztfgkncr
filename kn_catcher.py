@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-import numpy as np
+
 from math import isnan
 from astropy.table import Table
 from astropy.time import Time
@@ -7,6 +6,10 @@ import requests
 import pandas as pd
 import glob
 import optparse
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns; sns.set()
+
 
 def data_upload(api_key, ztf_id):
     """[Get data for ZTF fields and Fink science module outputs.]
